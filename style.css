@@ -1,0 +1,149 @@
+html {
+  height: 100%;
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-image{
+  width: 50%;
+  height: 50%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background: #f934ba;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+header h1 {
+  float: left;
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+section {
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.main-image img {
+  width: 100%;
+  height: auto;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.product {
+  text-align: center;
+  flex-basis: 30%;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background: #f924a1;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: auto;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+footer ul li {
+  display: inline;
+  margin-left: 10px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.as {background: #f924a1;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    margin: auto;
+    overflow: hidden
+    }
+.as ul{
+  list-style: none;
+  padding: 0;
+}
+.as ul li{
+  display: inline;
+  margin-left: 20px;
+}
+.as ul li a{
+  color:#fff;
+  text-decoration: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
